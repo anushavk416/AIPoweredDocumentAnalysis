@@ -25,9 +25,9 @@ An AI-based system to automate the evaluation of bidder documents for large-scal
 
 ---
 
-## 🚀 Setup & Operation Steps
+## Setup & Operation Steps
 
-### 🔍 STEP 1: OCR Processing (in Colab or Locally)
+### STEP 1: OCR Processing (in Colab or Locally)
 
 1. Clone this repo and open the OCR script (`.ipynb`) in Google Colab or Jupyter.
 2. Install necessary packages (Tesseract, OpenCV, etc.).
@@ -40,9 +40,9 @@ An AI-based system to automate the evaluation of bidder documents for large-scal
 
 ---
 
-### 🧠 STEP 2: Backend Setup (LLM & Embeddings)
+### STEP 2: Backend Setup (LLM & Embeddings)
 
-#### ✅ Prerequisites
+#### Prerequisites
 
 - [Install Python](https://www.python.org/downloads/)
 - [Install Ollama](https://ollama.com/download)
@@ -67,7 +67,7 @@ ollama run deepseek-r1:1.5b   # or ollama serve
 
 ---
 
-### 🌐 STEP 3: Frontend (Streamlit UI)
+### STEP 3: Frontend (Streamlit UI)
 
 ```bash
 # Launch the app
@@ -76,7 +76,7 @@ streamlit run app.py
 
 ---
 
-### 💡 STEP 4: Using the App
+### STEP 4: Using the App
 
 1. Upload the **OCR-extracted PDF** via Streamlit UI.
 2. Ask any **qualification-related query** (e.g., _"Is the bidder MSME?"_, _"What is their annual turnover?"_).
